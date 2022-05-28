@@ -1,14 +1,6 @@
 *{
     box-sizing:border-box;
 }
-Blitz_chess,music{
-    text-align: center;
-}
-video{
-    text-align: center;
-    display: block;
-    margin: auto;
-}
 header h1{
     color: white;
     font-family: "lucida handwriting","cursive";
@@ -58,4 +50,10 @@ a,h1,h2,h3,h4,h5,h6{
 ul{
     color: orangered;
     list-style: square;
+}
+section img{
+    border-top-color: orangered;
+    border-left-color: orangered;
+    border-width: 15px;
+    border-style: inset;
 }
