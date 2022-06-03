@@ -31,11 +31,23 @@ section{
 *{
     box-sizing:border-box;
 }
-a:hover{
-    opacity: 0.7;
-    text-decoration: solid;
-    font-size: 125%;
-    transition: 0.3s;
+a:before {  
+    transform: scaleX(0);
+    transform-origin: bottom right;
+}
+a:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+main a:before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    inset: 0 0 0 0;
+    background: orangered;
+    z-index: -1;
+    transition: transform .5s ease;
 }
 footer a:hover{
     opacity:0.7;
@@ -43,4 +55,11 @@ footer a:hover{
 }
 a,h1,h2,h3,h4,h5,h6{
     color: white;
+    position: relative;
+}
+nav a:hover{
+        opacity: 0.7;
+        text-decoration: solid;
+        font-size: 125%;
+        transition: 0.15s;
 }
