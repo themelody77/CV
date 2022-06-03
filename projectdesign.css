@@ -57,9 +57,14 @@ a,h1,h2,h3,h4,h5,h6{
     color: white;
     position: relative;
 }
-nav a:hover{
+footer a:hover{
         opacity: 0.7;
         text-decoration: solid;
         font-size: 125%;
         transition: 0.15s;
+}
+nav a:hover{
+    opacity: 0.7;
+    font-size: 125%;
+    transition: 0.15s;
 }
