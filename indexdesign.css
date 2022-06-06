@@ -52,6 +52,7 @@ a:before {
 }
 a:hover::before {
     transform: scaleX(1);
+    transform: scaleY(0.75);
     transform-origin: bottom left;
 }
 main a:before {
