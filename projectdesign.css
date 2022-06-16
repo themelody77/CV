@@ -33,7 +33,6 @@ section{
 }
 a:before {  
     transform: scaleX(0);
-    tranform: scaleY(1);
     transform-origin: bottom right;
 }
 a:hover::before {
