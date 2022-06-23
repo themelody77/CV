@@ -10,7 +10,7 @@ header{
     padding:50px;
 }
 li{
-    text-decoration : square;
+    list-style-type: square;
     color:orangered;
 }
 nav{
