@@ -13,6 +13,9 @@ li{
     list-style-type: square;
     color:orangered;
 }
+li h2{
+    color:white;
+}
 nav{
     text-align: left;
     padding: 10px 5px 10px;
