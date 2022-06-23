@@ -9,6 +9,10 @@ header{
     text-align:center;
     padding:50px;
 }
+li{
+    text-decoration : square;
+    color:orangered;
+}
 nav{
     text-align: left;
     padding: 10px 5px 10px;
